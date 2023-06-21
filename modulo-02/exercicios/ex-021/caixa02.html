@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(108, 105, 105);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgb(0, 0, 0);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: rgb(56, 190, 56);
+        }
+        
+        nav > a:active {
+            color: rgb(18, 84, 18)
+        }   
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px; 
+            border-radius: 20px 0px; 
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            text-align: justify;
+        }
+
+        article > aside {
+            background-color: rgb(128, 128, 128);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0;
+        }
+
+        /*div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }*/
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#" target="_blank">Link</a>
+            <a href="#" target="_blank">Link</a>
+            <a href="#" target="_blank">Link</a>
+            <a href="#" target="_blank">Link</a>
+            <a href="#" target="_blank">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem minus porro, excepturi illo repellat explicabo reiciendis, numquam laudantium quam hic in tempora, odio aut consequuntur iure eligendi dicta harum dolorum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo magni, laborum quo atque doloribus odit, sunt maxime, quibusdam reprehenderit accusamus vitae? Accusamus deserunt ab libero in repudiandae vero veniam quod?</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por CursoemVideo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
